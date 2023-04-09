@@ -38,7 +38,7 @@ body {
     
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
     :root {
        
     }
@@ -82,7 +82,7 @@ body {
         width: 100%;
         display: grid;
         grid-template-columns: 15.0rem 19.0rem;
-        margin-top: -100px;
+        margin: -100px -100px 0;
         
     }
 
@@ -96,8 +96,11 @@ body {
         width: 100%;
         display: grid;
         grid-template-columns: 30rem 20rem;
-        margin: -100px auto 0  ;
+        margin: -100px -100px 0  ;
         
+    }
+    .page {
+        margin-right: 1000px;
     }
 }
 
@@ -108,9 +111,13 @@ body {
     .grid-content {
         width: 100%;
         display: grid;
-        grid-template-columns: 50rem 40rem;
+        grid-template-columns: 40rem 40rem;
         margin: -100px auto 0  ;
         
+    }
+    .cards span {
+        display: none;
+        opacity: 0;
     }
 }
 /*
@@ -282,7 +289,6 @@ footer {
 
 footer p {
     animation: topdown 1s 1500ms backwards;
-    filter: opacity(0.3);
     margin: 0 auto;
 }
 
